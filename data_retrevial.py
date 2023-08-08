@@ -133,7 +133,7 @@ def from_url(url):
 def from_username(username):
     tables = {'names': [],
               'addresses': [],
-              'usernames': [], 
+              'sm_urls': [], 
               'passwords': [], 
               'emails': [], 
               'phones': []}
@@ -162,7 +162,7 @@ def from_password(password):
     tables = {'names': [],
               'addresses': [],
               'usernames': [], 
-              'passwords': [], 
+              'sm_urls': [], 
               'emails': [], 
               'phones': []}
 
@@ -194,4 +194,4 @@ Test Code
 # print(from_phone('5079'))
 # print(from_url('Sales'))
 # print(from_username('booker12'))
-print(from_password('9012'))
+# print(from_password('9012'))
